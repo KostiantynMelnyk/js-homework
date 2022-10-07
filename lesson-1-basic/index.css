@@ -1,0 +1,11 @@
+.information {
+  background-color: blanchedalmond;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 50px;
+  align-items: center;
+  font-size: 36px;
+  color: black;
+  display: flex;
+  height: 100vh;
+}
