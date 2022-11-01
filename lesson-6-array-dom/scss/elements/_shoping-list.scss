@@ -1,0 +1,40 @@
+.title {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 24px;
+}
+.shoping-list {
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  display: flex;
+  &__item {
+    border: 1px solid olivedrab;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+    padding: 10px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.modal-window {
+  display: flex;
+  justify-content: center;
+  &__open {
+    background-color: $c-black;
+    flex-direction: column;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 20px;
+    color: $c-white;
+    position: fixed;
+    display: flex;
+    height: 30%;
+    width: 30%;
+  }
+}
+
